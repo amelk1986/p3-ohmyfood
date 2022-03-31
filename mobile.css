@@ -134,7 +134,6 @@ header h1
 {
     background-color: #fff;
     border-radius: 1rem;
-    display: block;
     margin: 1.5rem;
     position: relative;
 }
@@ -144,16 +143,14 @@ header h1
 
     height: 12rem;
     width: 100%;
-    border: 0 solid transparent;
     border-radius: 1rem 1rem 0 0;
-    box-shadow: none;
     object-fit: cover;
 }
 .nouveau
 {
     background-color: #99e2d0;
     color: #1b6150;
-    padding: 0.5rem;
+    padding: 0.3rem 1rem;
     border-radius: 0.125rem;
     position: absolute;
     top: 1rem;
