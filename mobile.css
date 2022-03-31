@@ -2,11 +2,19 @@
 {
     box-sizing: border-box;
 }
+:root
+{
+    --primary:#9356DC;
+    --secondary: #FF79DA;
+    --tertiary: #99E2D0;
+    font-size: 15px;
+}
 body
 {
     font-family: "roboto",sans-serif;
     margin: 0;
 }
+
 header
 {
     font-family:"Shrikhand",cursive ;
@@ -18,9 +26,8 @@ header
 header h1
 {
     margin: 0;
-    font-size: 2.5em;
 }
-main .localisation
+.localisation
 {
     display: flex;
     justify-content: center;
@@ -30,29 +37,32 @@ main .localisation
     background-color: #F2F2F2;
     color: #585858;
 }
-main .localisation i
-{
-    font-size: 25px;
-}
+
 /* section explorer */
 .explorer
 {
     text-align: center;
+    background-color: #f8f8f8;
+    padding-bottom: 2rem;
 }
 .explorer h2
 {
-    margin-top: 2rem;
+    margin-top: 0rem;
+    padding-top: 2rem;
+}
+.explorer p
+{
+    font-weight: 300;
 }
 .explorer button
 {
     border: 0;
     padding: 0.75rem 1.5rem;
     font-weight: 500;
-    font-size: 1.1rem;
     border-radius: 2rem;
     color: white;
     background-color: #686868;
-    background-image: linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
+    background-image: linear-gradient(0deg,var(--primary),var(--secondary));
     cursor: pointer;
     transition-duration: 100ms;
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
@@ -61,4 +71,144 @@ main .localisation i
 {
     transform: scale(1.02);
     opacity: 0.9;
+}
+/* section fonctionnement*/
+
+    .fonctionnement h2 
+    {
+        margin-left: 1rem;
+    }
+    .liste 
+    {
+        padding: 0 1rem;
+        list-style-type: none;
+        counter-reset: numéro;
+    }
+    .icone::before
+    {
+        counter-increment: numéro 1;
+        content: counter(numéro) " ";
+        background: var(--primary);
+        color: white;
+        border-radius: 100px;
+        height: 1.5rem;
+        width: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: -1rem;
+    }
+    .fonctionnement .icone
+    {
+        padding: 1.5rem;
+        margin: 1rem 0 1rem 0.75rem;
+        box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
+        border-radius: 1.25rem;
+        background-color: #f6f6f6;
+        display: flex;
+        position: relative;
+    }
+    .fonctionnement i 
+    {
+        margin-right: 1rem;
+        color: #7e7e7e;
+    }
+
+/* section restaurants*/
+.restaurants
+{
+    background-color: #F2F2F2;
+    margin-top: 5rem;
+    padding-bottom: 1rem;
+}
+.restaurants h2
+{
+    margin: 1.5rem;
+    padding: 3.5rem 0 1rem 0;
+}
+.carte
+{
+    background-color: #fff;
+    border-radius: 1rem;
+    display: block;
+    margin: 1.5rem;
+    position: relative;
+}
+
+.carte-img
+{
+
+    height: 12rem;
+    width: 100%;
+    border: 0 solid transparent;
+    border-radius: 1rem 1rem 0 0;
+    box-shadow: none;
+    object-fit: cover;
+}
+.nouveau
+{
+    background-color: #99e2d0;
+    color: #1b6150;
+    padding: 0.5rem;
+    border-radius: 0.125rem;
+    position: absolute;
+    top: 1rem;
+    right: 0.75rem;
+}
+.carte-restaurants a
+{
+    text-decoration: none;
+    color: black;
+}
+figcaption h3
+{
+    margin: 1rem 0 0 1rem;
+    font-size: 1.4rem;
+}
+figcaption p
+{
+    margin: 0 0 0 1rem;
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+figcaption
+{
+    position: relative;
+}
+.icone-aime
+{
+    font-size: 2.5rem;
+    position: absolute;
+    right: 2rem;
+    top: 0;
+}
+/* footer*/
+footer
+{
+    background-color: #353535;
+    padding-bottom: 2rem;
+}
+footer h2
+{
+    font-family:"Shrikhand",cursive ;
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    margin-left: 2rem;
+    margin-top: 0;
+}
+footer p
+{
+    color: white;
+    margin: 0.5rem 2rem;
+    font-size: 1.2rem;
+}
+footer i
+{
+    margin-right: 1rem;
+}
+footer a
+{
+    text-decoration: none;
 }
