@@ -37,13 +37,17 @@ header h1
     background-color: #F2F2F2;
     color: #585858;
 }
+.icone-localisation
+{
+   font-size: 1.5rem; 
+}
 
 /* section explorer */
 .explorer
 {
     text-align: center;
     background-color: #f8f8f8;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 .explorer h2
 {
@@ -74,7 +78,7 @@ header h1
 
     .fonctionnement h2 
     {
-        margin-left: 1rem;
+        margin: 3rem 0 1.5rem 1rem
     }
     .liste 
     {
@@ -107,6 +111,7 @@ header h1
         display: flex;
         position: relative;
         cursor: pointer;
+        font-weight: 500;
     }
     .fonctionnement .icone:hover
     {
@@ -116,6 +121,7 @@ header h1
     {
         margin-right: 1rem;
         color: #7e7e7e;
+        font-size: 1.2rem;
     }
 
 /* section restaurants*/
@@ -128,7 +134,7 @@ header h1
 .restaurants h2
 {
     margin: 1.5rem;
-    padding: 3.5rem 0 1rem 0;
+    padding: 3.2rem 0 0 0;
 }
 .carte
 {
@@ -191,12 +197,13 @@ footer
 }
 footer h2
 {
-    font-family:"Shrikhand",cursive ;
+    font-family: "Shrikhand",cursive;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     padding-top: 2rem;
     margin-left: 2rem;
     margin-top: 0;
+    font-weight: 100;
 }
 footer p
 {
@@ -207,6 +214,11 @@ footer p
 footer i
 {
     margin-right: 1rem;
+    font-size: 1rem;
+}
+.fa-hands-helping:before
+{
+    margin-right: -0.5rem;
 }
 footer a
 {
