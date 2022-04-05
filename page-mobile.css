@@ -1,0 +1,128 @@
+*
+{
+    box-sizing: border-box;
+}
+:root
+{
+    --primary:#9356DC;
+    --secondary: #FF79DA;
+    --tertiary: #99E2D0;
+    font-size: 15px;
+}
+body
+{
+    font-family: "roboto",sans-serif;
+    margin: 0;
+}
+/* HEADER*/
+.entête
+{
+    font-family:"Shrikhand",cursive ;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+   
+}
+.entête i
+{
+    margin: 1.2rem 0rem 0rem 1.5rem;
+    font-size: 1.5rem;
+}
+.entête h1
+{
+    margin: 0.5rem 7rem 0 0;
+}
+/* section image-palette*/
+.image-palette img
+{
+    max-width: 100%;
+    max-height: 32rem;
+    width: 100%;
+    object-fit: cover;
+}
+/* menu*/
+.menu
+{
+    margin-top: -3rem;
+    border-radius: 2rem 2rem 0 0;
+    background-color: #f6f6f6;
+    position: relative; 
+} 
+.titre
+{
+    display: flex;
+}
+.titre h2
+{
+    font-family: Shrikhand,"cursive";
+    margin-left: 1rem;
+}
+.titre i
+{
+    margin: auto;
+    font-size: 2rem;
+}
+/* section entrée*/
+.entrée h3
+{
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-left: 1rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+.entrée h3::after
+{
+    content: "";
+    width: 3rem;
+    height: 0.25rem;
+    background-color: var(--tertiary);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.entrée
+{
+
+}
+
+
+
+
+
+
+/* footer*/
+footer
+{
+    background-color: #353535;
+    padding-bottom: 2rem;
+}
+footer h2
+{
+    font-family: "Shrikhand",cursive;
+    color: white;
+    font-size: 1.4rem;
+    padding-top: 2rem;
+    margin-left: 2rem;
+    margin-top: 0;
+    font-weight: 100;
+}
+footer p
+{
+    color: white;
+    margin: 0.5rem 2rem;
+    font-size: 1.2rem;
+}
+footer i
+{
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+.fa-hands-helping:before
+{
+    margin-right: -0.5rem;
+}
+footer a
+{
+    text-decoration: none;
+}
