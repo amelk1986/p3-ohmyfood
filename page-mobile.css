@@ -124,6 +124,11 @@ body
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
     cursor: pointer;
 }
+.button-commander:hover
+{
+    transform: scale(1.02);
+    opacity: 0.9;  
+}
 
 
 
