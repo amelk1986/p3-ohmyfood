@@ -63,7 +63,11 @@ body
     font-size: 2rem;
 }
 /* section entrée*/
-.entrée h3
+.titre-menu
+{
+    padding: 1rem;
+}
+.titre-menu h3
 {
     text-transform: uppercase;
     font-weight: 400;
@@ -71,7 +75,7 @@ body
     position: relative;
     padding-bottom: 0.5rem;
 }
-.entrée h3::after
+.titre-menu h3::after
 {
     content: "";
     width: 3rem;
@@ -81,11 +85,45 @@ body
     left: 0;
     bottom: 0;
 }
-.entrée
+.menuidem
 {
-
+    
+    border-radius: 1rem;
+    background: white;
+    padding: 0.2rem 1rem;
+    margin-bottom: 1rem;
 }
-
+.menuidem h4
+{
+    margin: 0.5rem;
+}
+.menuidem p
+{
+    margin: 0.5rem;
+}
+.menuidem span
+{
+    font-weight: bold;
+}
+/* commander*/
+.commander
+{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding: 1rem 0 3.5rem 
+}
+.button-commander
+{
+    border: 0;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    border-radius: 100px;
+    color: white;
+    background-image: linear-gradient(0deg,var(--primary),var(--secondary));
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+    cursor: pointer;
+}
 
 
 
