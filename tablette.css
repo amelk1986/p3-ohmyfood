@@ -1,0 +1,7 @@
+@media (min-width: 376px) and (max-width: 991px)
+{
+    .carte img
+    {
+        width: -webkit-fill-available;
+    }
+}

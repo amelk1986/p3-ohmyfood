@@ -4,6 +4,10 @@
     {
         margin: auto;
     }
+    .entête i
+    {
+        margin: 0.5rem 0rem 0rem 1.5rem;
+    }
     .titre i
     {
         margin: 1rem 0 0 85rem;
