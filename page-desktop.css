@@ -1,0 +1,16 @@
+@media (min-width: 992px)
+{
+    .entête h1
+    {
+        margin: auto;
+    }
+    .titre i
+    {
+        margin: 1rem 0 0 85rem;
+    }
+    .entrée-plat-dessert
+    {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
