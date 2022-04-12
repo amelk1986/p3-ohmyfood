@@ -45,4 +45,14 @@
         display: flex;
         margin-left: 2rem;
     }
+    footer h2
+    {
+        margin-left: 50rem;
+        padding-top: 1rem;
+    }
+    .footer-information
+    {
+        display: flex;
+        justify-content: space-evenly;
+    }
 }

@@ -4,4 +4,15 @@
     {
         width: -webkit-fill-available;
     }
+    footer h2 
+    {
+        margin-left: 23rem;
+    }
+    .footer-information
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 3rem;
+    }
 }

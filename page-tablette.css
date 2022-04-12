@@ -1,0 +1,35 @@
+@media (min-width: 376px) and (max-width: 991px)
+{
+    .entête h1 
+    {
+        margin-right: 18rem;
+    }
+    .image-palette img 
+    {
+        max-height: 19rem;
+        width: 52rem;
+    }
+    .titre i 
+    {
+        margin-left: 30rem;
+    }
+    .menuidem
+    {
+        width: 100%;
+    }
+    .menuidem p 
+    {
+        text-overflow: inherit;
+    }
+    footer h2 
+    {
+        margin-left: 23rem;
+    }
+    .footer-information
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 3rem;
+    }
+}

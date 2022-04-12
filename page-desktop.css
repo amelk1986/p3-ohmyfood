@@ -1,5 +1,10 @@
 @media (min-width: 992px)
 {
+    .image-palette img 
+    {
+        width: 100%;
+        max-height: 40rem;
+    }
     .entête h1
     {
         margin: auto;
@@ -8,11 +13,25 @@
     {
         margin: 0.5rem 0rem 0rem 1.5rem;
     }
+    .titre h2 
+    {
+        margin-left: 8.5rem;
+    }
     .titre i
     {
-        margin: 1rem 0 0 85rem;
+        margin: 1rem 0 0 72rem;
     }
     .entrée-plat-dessert
+    {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    footer h2
+    {
+        margin-left: 50rem;
+        padding-top: 1rem;
+    }
+    .footer-information
     {
         display: flex;
         justify-content: space-evenly;
