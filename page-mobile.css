@@ -89,19 +89,46 @@ body
 {
     border-radius: 1rem;
     background: white;
-    padding: 0.2rem 1rem;
+    padding: 0.4rem 1rem;
     margin-bottom: 1rem;
     cursor: pointer;
     width: 23rem;
+    display: flex;
+    overflow: hidden;
+    animation: menu-item-fade-in-anim .4s ease-in-out 0s backwards;
+    animation: menu-item-fade-in-anim .4s ease-in-out .2s backwards;
+    animation: menu-item-fade-in-anim .4s ease-in-out .4s backwards;
+    animation: menu-item-fade-in-anim .4s ease-in-out .6s backwards;
+    animation: menu-item-fade-in-anim .4s ease-in-out .8s backwards;
+    animation: menu-item-fade-in-anim .4s ease-in-out .10s backwards;
+    animation: menu-item-fade-in-anim .4s ease-in-out .12s backwards;
+    animation: menu-item-fade-in-anim .4s ease-in-out .14s backwards;
+    animation: menu-item-fade-in-anim .4s ease-in-out .16s backwards;
+    animation: menu-item-fade-in-anim .4s ease-in-out .18s backwards;
+}  
+
+@keyframes menu-item-fade-in-anim 
+{
+    0%{
+        transform: translateY(10%);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
+
 .menuidem h4
 {
-    margin: 0.5rem 0 0.2rem 0.5rem;
-    font-size: 1.2rem;
+    margin: 0.5rem 0 0.2rem 0;
+    font-size: 1.1rem;
 }
 .menuidem p
 {
-    margin: 0;
+    margin: 0 0 0.1rem 0;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -110,15 +137,44 @@ body
 .menuidem span
 {
     font-weight: bold;
-    margin-left:auto;
+}
+.menu-confirmation
+{
+    background-color: var(--tertiary);
+    border-radius: 0 1rem 1rem 0;
+    margin: -3.7rem 0 0 2.8rem;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.menu-icon 
+{
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+.icon-confirmation
+{
+    color: var(--tertiary);
 }
 .prix
 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-left: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin: 2.2rem 0rem -2rem 2rem;
+}
+
+@keyframes confirmation 
+{
+
+}
+.menu-déscription
+{
+    min-width: 83%;
 }
 
 /* commander*/
@@ -136,14 +192,15 @@ body
     font-size: 1rem;
     border-radius: 100px;
     color: white;
-    background-image: linear-gradient(0deg,var(--primary),var(--secondary));
+    background-image: linear-gradient(170deg,var(--secondary),var(--primary));
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
     cursor: pointer;
 }
 .button-commander:hover
 {
     transform: scale(1.02);
-    opacity: 0.9;  
+    opacity: 0.9; 
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%); 
 }
 /* footer*/
 footer

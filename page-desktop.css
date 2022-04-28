@@ -26,6 +26,11 @@
         display: flex;
         justify-content: space-evenly;
     }
+    .menidem:hover .menu-confirmation
+    {
+        margin-right: -3rem;
+        background-color: red;
+    }
     footer h2
     {
         margin-left: 50rem;
