@@ -13,13 +13,21 @@
     {
         margin-left: 30rem;
     }
-    .menuidem
+    .menu-item
     {
         width: 100%;
     }
-    .menuidem p 
+    .menu-item p 
     {
         text-overflow: inherit;
+    }
+    .prix
+    {
+        margin-left: 6rem;
+    }
+    .menu-confirmation
+    {
+        margin-left: 3rem;
     }
     footer h2 
     {
