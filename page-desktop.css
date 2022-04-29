@@ -44,10 +44,17 @@
         display: flex;
         justify-content: space-evenly;
     }
-    .menu-item:hover .menu-confirmation
+    .menu-item
     {
-        margin-right: -3rem;
-        background-color: red;
+        width: 25rem;
+    }
+    .menu-item span
+    {
+        margin-left: -0.5rem;
+    }
+    .menu-item:hover .prix
+    {
+        margin-left: -1rem;
     }
     footer h2
     {

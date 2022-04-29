@@ -159,12 +159,13 @@ body
 .menu-item span
 {
     font-weight: bold;
+    margin-left: -1rem;   
 }
 .menu-confirmation
 {
     background-color: var(--tertiary);
     border-radius: 0 1rem 1rem 0;
-    margin: -3.7rem 0 0 2.8rem;
+    margin: -3.7rem 0 0 2rem;
     width: 4rem;
     height: 4rem;
     display: flex;
@@ -187,12 +188,27 @@ body
 }
 .prix
 {
-    margin: 2.2rem 0rem -2rem 2rem;
+    margin: 2.2rem 0rem -2rem 3rem;
+    transition: all 0.5s;
 }
+.menu-item:hover .prix
+{
+    margin-left: -1.4rem;
+}
+.menu-item:hover .icon-confirmation
+{
+    animation: confirmation 1s;
+}
+
 
 @keyframes confirmation 
 {
-
+    0%{
+        transform: rotate(-270deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
 }
 .menu-description
 {
