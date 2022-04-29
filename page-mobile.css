@@ -85,7 +85,7 @@ body
     left: 0;
     bottom: 0;
 }
-.menuidem
+.menu-item
 {
     border-radius: 1rem;
     background: white;
@@ -121,12 +121,12 @@ body
     }
 }
 
-.menuidem h4
+.menu-item h4
 {
     margin: 0.5rem 0 0.2rem 0;
     font-size: 1.1rem;
 }
-.menuidem p
+.menu-item p
 {
     margin: 0 0 0.1rem 0;
     white-space: nowrap;
@@ -134,7 +134,7 @@ body
     overflow: hidden;
     max-width: 18.2rem;
 }
-.menuidem span
+.menu-item span
 {
     font-weight: bold;
 }
@@ -172,7 +172,7 @@ body
 {
 
 }
-.menu-déscription
+.menu-description
 {
     min-width: 83%;
 }
