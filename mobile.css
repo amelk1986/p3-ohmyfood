@@ -249,33 +249,21 @@ figcaption .heart
     font-size: 2rem;
     margin-right: 0;
     position: relative;
-    overflow: hidden;
-    /*background: linear-gradient(170deg,var(--secondary),var(--primary));*/
 }
-
-/*.icone-aime::after
+.icone-aime-2
 {
-    content: "";
     position: absolute;
-    height: 100%;
-    width: 100%;
-    background: white;
-    bottom: 10%;
-    left: -6%; 
-    border-radius: 45%; 
-    animation: heart 6s ease-in-out infinite;
+    font-size: 2.1rem;
+    color: transparent;
+    background: linear-gradient(var(--primary),var(--secondary));
+    -webkit-background-clip: text;
+    opacity: 0;
+    transition: all 600ms;
 }
-
-@keyframes heart
+.icone-aime-2:hover
 {
-    0%{
-        transform: translateY(0) rotate(0);
-    }
-    100%{
-        transform: translateY(-100%) rotate(500deg);
-    }
-}*/
-
+    opacity: 1;
+}
 
 /* footer*/
 footer

@@ -57,10 +57,32 @@ body
     font-family: Shrikhand,"cursive";
     margin-left: 1.5rem;
 }
-.titre i
+/*.titre i
 {
     margin: 1.2rem 0 0 5rem;
     font-size: 2rem;
+}*/
+.icone-aime
+{
+    font-size: 2rem;
+    margin: 1rem 0 0 6rem;
+    position: relative;
+}
+.icone-aime-2
+{
+    position: absolute;
+    font-size: 2.1rem;
+    margin-left: 21.4rem;
+    margin-top: 1rem;
+    color: transparent;
+    background: linear-gradient(var(--primary),var(--secondary));
+    -webkit-background-clip: text;
+    opacity: 0;
+    transition: all 600ms;
+}
+.icone-aime-2:hover
+{
+    opacity: 1;
 }
 /* section entrée*/
 .titre-menu

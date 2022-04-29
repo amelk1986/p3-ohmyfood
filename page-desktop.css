@@ -17,9 +17,27 @@
     {
         margin-left: 8.5rem;
     }
-    .titre i
+    .titre .icone-aime
     {
-        margin: 1rem 0 0 72rem;
+        font-size: 2rem;
+        margin: 1rem 0 0 71rem;
+        position: relative;
+    }
+    .titre .icone-aime-2
+    {
+        position: absolute;
+        font-size: 2.1rem;
+        margin-left: 93.4rem;
+        margin-top: 1rem;
+        color: transparent;
+        background: linear-gradient(var(--primary),var(--secondary));
+        -webkit-background-clip: text;
+        opacity: 0;
+        transition: all 600ms;
+    }
+    .titre .icone-aime-2:hover
+    {
+        opacity: 1;
     }
     .entrée-plat-dessert
     {
