@@ -46,15 +46,15 @@
     }
     .menu-item
     {
-        width: 25rem;
+        width: 28rem;
     }
     .menu-item span
     {
-        margin-left: -0.5rem;
+        margin-left: -1.5rem;
     }
     .menu-item:hover .prix
     {
-        margin-left: -1rem;
+        margin-left: -1.2rem;
     }
     footer h2
     {

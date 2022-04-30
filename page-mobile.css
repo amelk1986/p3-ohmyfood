@@ -107,24 +107,52 @@ body
     border-radius: 1rem;
     background: white;
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
-    padding: 0.4rem 1rem;
     margin-bottom: 1rem;
     cursor: pointer;
     width: 23rem;
     display: flex;
-    overflow: hidden;
+    overflow: hidden;  
+} 
+.animate-0
+{
     animation: menu-item-fade-in-anim .4s ease-in-out 0s backwards;
+}
+.animate-1
+{
+    animation: menu-item-fade-in-anim .4s ease-in-out .1s backwards;
+}
+.animate-2
+{
     animation: menu-item-fade-in-anim .4s ease-in-out .2s backwards;
-    animation: menu-item-fade-in-anim .4s ease-in-out .4s backwards;
-    animation: menu-item-fade-in-anim .4s ease-in-out .6s backwards;
-    animation: menu-item-fade-in-anim .4s ease-in-out .8s backwards;
-    animation: menu-item-fade-in-anim .4s ease-in-out .10s backwards;
-    animation: menu-item-fade-in-anim .4s ease-in-out .12s backwards;
-    animation: menu-item-fade-in-anim .4s ease-in-out .14s backwards;
-    animation: menu-item-fade-in-anim .4s ease-in-out .16s backwards;
-    animation: menu-item-fade-in-anim .4s ease-in-out .18s backwards;
+}
+.animate-3
+{
+    animation: menu-item-fade-in-anim .4s ease-in-out .3s backwards;
 }  
-
+.animate-4
+{
+    animation: menu-item-fade-in-anim .4s ease-in-out .4s backwards;
+}
+.animate-5
+{
+    animation: menu-item-fade-in-anim .4s ease-in-out .5s backwards;
+}
+.animate-6
+{
+    animation: menu-item-fade-in-anim .4s ease-in-out .6s backwards;
+}
+.animate-7
+{
+    animation: menu-item-fade-in-anim .4s ease-in-out .7s backwards;
+}
+.animate-8
+{
+    animation: menu-item-fade-in-anim .4s ease-in-out .8s backwards;
+}
+.animate-9
+{
+    animation: menu-item-fade-in-anim .4s ease-in-out .9s backwards;
+}
 @keyframes menu-item-fade-in-anim 
 {
     0%{
@@ -155,7 +183,7 @@ body
 .menu-item span
 {
     font-weight: bold;
-    margin-left: -1rem;   
+    margin-left: -2rem;   
 }
 .menu-confirmation
 {
@@ -163,7 +191,7 @@ body
     border-radius: 0 1rem 1rem 0;
     margin: -3.7rem 0 0 2rem;
     width: 4rem;
-    height: 4rem;
+    height: 112%;
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -177,6 +205,7 @@ body
     align-items: center;
     justify-content: center;
     border-radius: 100px;
+    margin-top: 0.5rem;
 }
 .icon-confirmation
 {
@@ -189,13 +218,12 @@ body
 }
 .menu-item:hover .prix
 {
-    margin-left: -1.4rem;
+    margin-left: -2rem;
 }
 .menu-item:hover .icon-confirmation
 {
     animation: confirmation 1s;
 }
-
 
 @keyframes confirmation 
 {
@@ -206,9 +234,10 @@ body
         transform: rotate(0);
     }
 }
-.menu-description
+.menu-description 
 {
     min-width: 83%;
+    padding: 0.4rem 1rem;
 }
 
 /* commander*/
