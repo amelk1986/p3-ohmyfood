@@ -52,6 +52,10 @@
     {
         margin-right: -5rem;
     }
+    .menu-item p 
+    {
+        max-width: 19.2rem;
+    }
     .menu-confirmation
     {
         margin: 0 0 0 5rem;
