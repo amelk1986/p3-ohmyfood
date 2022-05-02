@@ -111,7 +111,7 @@ body
     cursor: pointer;
     width: 23rem;
     display: flex;
-    overflow: hidden;  
+    overflow: hidden;
 } 
 .animate-0
 {
@@ -183,18 +183,22 @@ body
 .menu-item span
 {
     font-weight: bold;
-    margin-left: -2rem;   
+    display: flex;
+    justify-content: end;
+    margin-right: -4rem;
+    margin-top: -1.2rem;   
 }
 .menu-confirmation
 {
     background-color: var(--tertiary);
     border-radius: 0 1rem 1rem 0;
-    margin: -3.7rem 0 0 2rem;
-    width: 4rem;
-    height: 112%;
+    margin: 0 0 0 4rem;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+    padding: 1rem;
 }
 .menu-icon 
 {
@@ -211,18 +215,22 @@ body
 {
     color: var(--tertiary);
 }
-.prix
+.menu-item:hover .menu-description
 {
-    margin: 2.2rem 0rem -2rem 3rem;
-    transition: all 0.5s;
+    margin-right: -3.5rem;
+    
 }
-.menu-item:hover .prix
+.menu-item:hover span
 {
-    margin-left: -2rem;
+    margin-right: -0.5rem;
 }
 .menu-item:hover .icon-confirmation
 {
     animation: confirmation 1s;
+}
+.menu-item:hover p
+{
+    margin-right: 3rem;
 }
 
 @keyframes confirmation 
@@ -234,11 +242,14 @@ body
         transform: rotate(0);
     }
 }
-.menu-description 
+.menu-description
 {
+
     min-width: 83%;
-    padding: 0.4rem 1rem;
+    padding: 0.3rem 1rem;
+    transition: all 0.5s;
 }
+
 
 /* commander*/
 .commander

@@ -50,11 +50,15 @@
     }
     .menu-item span
     {
-        margin-left: -1.5rem;
+        margin-right: -5rem;
     }
-    .menu-item:hover .prix
+    .menu-confirmation
     {
-        margin-left: -1.2rem;
+        margin: 0 0 0 5rem;
+    }
+    .menu-item:hover .menu-description
+    {
+        margin-right: -5rem;
     }
     footer h2
     {
