@@ -28,6 +28,7 @@
     .liste
     {
         display: flex;
+        gap: 1rem;
         gap: 1%;
     }
     .fonctionnement .icone 
@@ -39,6 +40,7 @@
     .fonctionnement 
     {
         margin-left: 13%;
+
     }
     .articles
     {
@@ -47,6 +49,8 @@
     }
     footer h2
     {
+        margin-left: 50rem;
+        padding-top: 1rem;
         margin-left: 50%;
         padding-top: 1%;
     }
