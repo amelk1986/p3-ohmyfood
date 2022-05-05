@@ -181,7 +181,7 @@ input::placeholder
         transform: scale(1.02);
         background-color: #ebe2f5;
     }
-    .fonctionnement:hover i
+    .icone:hover i
     {
         color: var(--primary);
 
