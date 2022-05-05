@@ -1,0 +1,74 @@
+@media (min-width: 376px) and (max-width: 991px)
+{
+    .entête h1 
+    {
+        margin-right: 18rem;
+    }
+    .image-palette img 
+    {
+        max-height: 19rem;
+        width: 51.2rem;
+    }
+    .titre .icone-aime
+    {
+        font-size: 2rem;
+        margin: 1rem 0 0 32rem;
+        position: relative;
+    }
+    .titre .icone-aime-2
+    {
+        position: absolute;
+        font-size: 2.1rem;
+        margin-left: 47.4rem;
+        margin-top: 1rem;
+        color: transparent;
+        background: linear-gradient(var(--primary),var(--secondary));
+        -webkit-background-clip: text;
+        opacity: 0;
+        transition: all 600ms;
+    }
+    .titre .icone-aime-2:hover
+    {
+        opacity: 1;
+    }
+    .menu-item
+    {
+        width: 100%;
+    }
+    .menu-item p 
+    {
+        max-width: 19.2rem;
+    }
+    .menu-item span 
+    {
+        margin-right: -8.5rem;
+    }    
+    .prix
+    {
+        margin-left: 6rem;
+    }
+    .menu-confirmation
+    {
+        margin-left: 8.5rem;
+    }
+    .menu-item:hover .menu-description
+    {
+        margin-right: -4rem;
+    }
+    .menu-item:hover span
+    {
+        margin-right: -5rem;
+    }
+    
+    footer h2 
+    {
+        margin-left: 23rem;
+    }
+    .footer-information
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 3rem;
+    }
+}

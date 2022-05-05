@@ -1,0 +1,314 @@
+*
+{
+    box-sizing: border-box;
+}
+:root
+{
+    --primary:#9356DC;
+    --secondary: #FF79DA;
+    --tertiary: #99E2D0;
+    font-size: 15px;
+}
+body
+{
+    font-family: "roboto",sans-serif;
+    margin: 0;
+}
+/* HEADER*/
+.entête
+{
+    font-family:"Shrikhand",cursive ;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+   
+}
+.entête i
+{
+    margin: 1.2rem 0rem 0rem 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+}
+.entête h1
+{
+    margin: 0.5rem 7rem 0 0;
+}
+/* section image-palette*/
+.image-palette img
+{
+    max-height: 18rem;
+    width: 25rem;
+    object-fit: cover;
+}
+/* menu*/
+.menu
+{
+    margin-top: -3rem;
+    border-radius: 2rem 2rem 0 0;
+    background-color: #f6f6f6;
+    position: relative; 
+} 
+.titre
+{
+    display: flex;
+}
+.titre h2
+{
+    font-family: Shrikhand,"cursive";
+    margin-left: 1.5rem;
+}
+.icone-aime
+{
+    font-size: 2rem;
+    margin: 1rem 0 0 6rem;
+    position: relative;
+}
+.icone-aime-2
+{
+    position: absolute;
+    font-size: 2.1rem;
+    margin-left: 21.4rem;
+    margin-top: 1rem;
+    color: transparent;
+    background: linear-gradient(var(--primary),var(--secondary));
+    -webkit-background-clip: text;
+    opacity: 0;
+    transition: all 600ms;
+}
+.icone-aime-2:hover
+{
+    opacity: 1;
+}
+/* section entrée*/
+.titre-menu
+{
+    padding: 1rem;
+}
+.titre-menu h3
+{
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-left: 1rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+.titre-menu h3::after
+{
+    content: "";
+    width: 3rem;
+    height: 0.25rem;
+    background-color: var(--tertiary);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.menu-item
+{
+    border-radius: 1rem;
+    background: white;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+    margin-bottom: 1rem;
+    cursor: pointer;
+    width: 23rem;
+    display: flex;
+    overflow: hidden;
+} 
+.animate-0
+{
+    animation: menu-item-fade-in-anim .4s ease-in-out 0s backwards;
+}
+.animate-1
+{
+    animation: menu-item-fade-in-anim .4s ease-in-out .1s backwards;
+}
+.animate-2
+{
+    animation: menu-item-fade-in-anim .4s ease-in-out .2s backwards;
+}
+.animate-3
+{
+    animation: menu-item-fade-in-anim .4s ease-in-out .3s backwards;
+}  
+.animate-4
+{
+    animation: menu-item-fade-in-anim .4s ease-in-out .4s backwards;
+}
+.animate-5
+{
+    animation: menu-item-fade-in-anim .4s ease-in-out .5s backwards;
+}
+.animate-6
+{
+    animation: menu-item-fade-in-anim .4s ease-in-out .6s backwards;
+}
+.animate-7
+{
+    animation: menu-item-fade-in-anim .4s ease-in-out .7s backwards;
+}
+.animate-8
+{
+    animation: menu-item-fade-in-anim .4s ease-in-out .8s backwards;
+}
+.animate-9
+{
+    animation: menu-item-fade-in-anim .4s ease-in-out .9s backwards;
+}
+@keyframes menu-item-fade-in-anim 
+{
+    0%{
+        transform: translateY(10%);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.menu-item h4
+{
+    margin: 0.5rem 0 0.2rem 0;
+    font-size: 1.1rem;
+}
+.menu-item p
+{
+    margin: 0 0 0.1rem 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 18.2rem;
+}
+.menu-item span
+{
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+    margin-right: -4rem;
+    margin-top: -1.2rem;
+    transition: all 0.5s;   
+}
+.menu-confirmation
+{
+    background-color: var(--tertiary);
+    border-radius: 0 1rem 1rem 0;
+    margin: 0 0 0 4rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.menu-icon 
+{
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    margin-top: 0.5rem;
+}
+.icon-confirmation
+{
+    color: var(--tertiary);
+}
+.menu-item:hover .menu-description
+{
+    margin-right: -3.5rem;
+    
+}
+.menu-item:hover span
+{
+    margin-right: -0.5rem;
+}
+.menu-item:hover .icon-confirmation
+{
+    animation: confirmation 1s;
+}
+.menu-item:hover p
+{
+    margin-right: 3rem;
+}
+
+@keyframes confirmation 
+{
+    0%{
+        transform: rotate(-270deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+.menu-description
+{
+
+    min-width: 83%;
+    padding: 0.3rem 1rem;
+    transition: all 0.5s;
+}
+
+
+/* commander*/
+.commander
+{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding: 1rem 0 3.5rem 
+}
+.button-commander
+{
+    border: 0;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border-radius: 100px;
+    color: white;
+    background-image: linear-gradient(170deg,var(--secondary),var(--primary));
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+    cursor: pointer;
+}
+.button-commander:hover
+{
+    transform: scale(1.02);
+    opacity: 0.9; 
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%); 
+}
+/* footer*/
+footer
+{
+    background-color: #353535;
+    padding-bottom: 2rem;
+}
+footer h2
+{
+    font-family: "Shrikhand",cursive;
+    color: white;
+    font-size: 1.4rem;
+    padding-top: 2rem;
+    margin-left: 2rem;
+    margin-top: 0;
+    font-weight: 100;
+}
+footer p
+{
+    color: white;
+    margin: 0.5rem 2rem;
+    font-size: 1.2rem;
+}
+footer i
+{
+    margin-right: 1rem;
+    font-size: 0.8rem;
+}
+.fa-hands-helping:before
+{
+    margin-right: -0.5rem;
+}
+footer a
+{
+    text-decoration: none;
+}

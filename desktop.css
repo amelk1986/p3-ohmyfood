@@ -1,0 +1,58 @@
+
+@media (min-width: 992px)
+{
+    header h1
+    {
+        font-size: 2.5rem;
+    }
+    .localisation
+    {
+        font-size: 1.2rem;
+    }
+    .explorer h2
+    {
+       font-size: 2rem; 
+    }
+    .explorer p 
+    {
+        font-size: 1.5rem;
+    }
+    .explorer button 
+    {
+        font-size: 1.5rem;
+    }
+    .fonctionnement h2 
+    {
+        font-size: 2rem;
+    }
+    .liste
+    {
+        display: flex;
+        gap: 1%;
+    }
+    .fonctionnement .icone 
+    {
+        width: 25%;
+        margin: 0 0 0 2%;
+        font-size: 1.3rem;
+    }
+    .fonctionnement 
+    {
+        margin-left: 13%;
+    }
+    .articles
+    {
+        display: flex;
+        margin-left: 2rem;
+    }
+    footer h2
+    {
+        margin-left: 50%;
+        padding-top: 1%;
+    }
+    .footer-information
+    {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
