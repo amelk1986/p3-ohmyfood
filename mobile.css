@@ -179,7 +179,7 @@ input::placeholder
     .fonctionnement .icone:hover
     {
         transform: scale(1.02);
-        background-color: #ebe2f5;
+        background-color: #e6ddf1;
     }
     .icone:hover i
     {
