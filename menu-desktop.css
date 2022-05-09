@@ -1,4 +1,4 @@
-@media (min-width: 992px)
+@media (min-width: 992px) 
 {
     .image-palette img 
     {
@@ -20,14 +20,14 @@
     .titre .icone-aime
     {
         font-size: 2rem;
-        margin: 1rem 0 0 74.2rem;
+        margin: 1% 0 0 60%;
         position: relative;
     }
     .titre .icone-aime-2
     {
         position: absolute;
         font-size: 2.1rem;
-        margin-left: 93.4rem;
+        margin-right: 8.8%;
         margin-top: 1rem;
         color: transparent;
         background: linear-gradient(var(--primary),var(--secondary));
@@ -48,10 +48,10 @@
     {
         width: 28rem;
     }
-    .menu-item span
+    /*.menu-item span
     {
         margin-right: -5rem;
-    }
+    }*/
     .menu-item p 
     {
         max-width: 19.2rem;
@@ -63,6 +63,10 @@
     .menu-item:hover .menu-description
     {
         margin-right: -5rem;
+    }
+    .menu-description
+    {
+        max-width: 100%;
     }
     footer h2
     {

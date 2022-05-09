@@ -13,6 +13,7 @@ body
 {
     font-family: "roboto",sans-serif;
     margin: 0;
+    scroll-behavior: smooth;
 }
 /* loader*/
 
@@ -210,6 +211,7 @@ input::placeholder
     background-color: #fff;
     border-radius: 1rem;
     margin: 1.5rem;
+    flex: 1 1 100%;
     position: relative;
     padding-bottom: 2rem;
 }
@@ -218,7 +220,7 @@ input::placeholder
 {
 
     height: 12rem;
-    width: 22rem;
+    width: 100%;
     border-radius: 1rem 1rem 0 0;
     object-fit: cover;
 }

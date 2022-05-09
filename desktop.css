@@ -44,7 +44,7 @@
     }
     .articles
     {
-        display: flex;
+        flex-flow: row wrap;
         margin-left: 2rem;
     }
     footer h2

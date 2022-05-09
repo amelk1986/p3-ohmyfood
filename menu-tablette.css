@@ -1,4 +1,4 @@
-@media (min-width: 376px) and (max-width: 991px)
+@media (min-width: 376px) and (max-width: 990px)
 {
     .entête h1 
     {
@@ -7,7 +7,7 @@
     .image-palette img 
     {
         max-height: 19rem;
-        width: 51.2rem;
+        width: 100%;
     }
     .titre .icone-aime
     {
@@ -19,7 +19,6 @@
     {
         position: absolute;
         font-size: 2.1rem;
-        margin-left: 47.4rem;
         margin-top: 1rem;
         color: transparent;
         background: linear-gradient(var(--primary),var(--secondary));
@@ -49,7 +48,7 @@
     }
     .menu-confirmation
     {
-        margin-left: 8.5rem;
+        margin-left: 17%;
     }
     .menu-item:hover .menu-description
     {
