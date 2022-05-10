@@ -53,13 +53,12 @@ body
 .titre
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .titre h2
 {
     font-family: Shrikhand,"cursive";
-    margin-left: 1.5rem;
 }
 .icone-aime
 {
@@ -71,15 +70,14 @@ body
 {
     position: absolute;
     font-size: 2.1rem;
-    /*margin-left: 21.4rem;
-    margin-top: 1rem;*/
+    margin-top: 1rem;
     color: transparent;
     background: linear-gradient(var(--primary),var(--secondary));
     -webkit-background-clip: text;
     opacity: 0;
     transition: all 600ms;
     right: 0;
-    margin-right: 12.1%;
+    margin-right: 4.1%;
 }
 .icone-aime-2:hover
 {
@@ -114,7 +112,7 @@ body
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
     margin-bottom: 1rem;
     cursor: pointer;
-    width: 23rem;
+    width: 100%;
     display: flex;
     overflow: hidden;
 } 
@@ -185,10 +183,11 @@ body
     overflow: hidden;
     max-width: 18.2rem;
 }
-.menu-description span
+.menu-description .prix
 {
     font-weight: bold;
     margin-left: 113%;
+    margin-top: -1.2rem;
     transition: all 0.5s;   
 }
 .menu-confirmation
@@ -223,9 +222,9 @@ body
     margin-right: -3.5rem;
     
 }
-.menu-description:hover span
+.menu-description:hover .prix
 {
-    margin-left: 20rem;
+    margin-left: 16rem;
 }
 .menu-item:hover .icon-confirmation
 {
