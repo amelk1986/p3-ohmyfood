@@ -16,15 +16,15 @@
     .titre .icone-aime
     {
         font-size: 2rem;
-        margin: 1% 0 0 60%;
+        
         position: relative;
     }
     .titre .icone-aime-2
     {
         position: absolute;
         font-size: 2.1rem;
-        margin-right: 0.8%;
-        margin-top: 1rem;
+        margin-right: 14px;
+        margin-top: -1px;
         color: transparent;
         background: linear-gradient(var(--primary),var(--secondary));
         -webkit-background-clip: text;
@@ -35,49 +35,34 @@
     {
         opacity: 1;
     }
-    /*.entrée-plat-dessert
+    .menu-prix
     {
         display: flex;
-        justify-content: space-evenly;
-    }*/
-    .menu-item
-    {
-        width: 100%;
-    }
-    /*.menu-item span
-    {
-        margin-right: -5rem;
-    }*/
-    .menu-item p 
-    {
-        max-width: 19.2rem;
+        overflow: hidden;
+        max-width: 100%;
+        justify-content: space-between;
+        transition: all 0.5s;
     }
     .menu-description .prix
     {
         font-weight: bold;
-        margin-left: 119%;
-        margin-top: -1.2rem;
         transition: all 0.5s;   
     }
     .menu-item:hover .prix
     {
         margin-left: 94rem;
     }
-    .menu-confirmation
+    .menu-item:hover .menu-prix
     {
-        margin: 0 0 0 17.8rem;
+        margin-right: -3rem;
     }
-    .menu-item:hover .menu-description
+    .menu-item:hover .menu-span
     {
-        margin-right: -5rem;
-    }
-    .menu-description
-    {
-        max-width: 100%;
+        margin-right: -3rem;
     }
     footer h2
     {
-        margin-left: 50rem;
+        margin-left: 50%;
         padding-top: 1rem;
     }
     .footer-information
