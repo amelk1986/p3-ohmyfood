@@ -42,21 +42,9 @@
         font-weight: bold;
         transition: all 0.5s;   
     }
-    .menu-item:hover .menu-span
-    {
-        margin-right: -9rem;
-    }
     .menu-confirmation
     {
         margin-left: 17%;
-    }
-    .menu-item:hover .menu-span
-    {
-        margin-right: -17rem;
-    }
-    .menu-description:hover .prix 
-    {
-        margin-left: 42rem;
     }
     footer h2 
     {

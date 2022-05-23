@@ -48,18 +48,6 @@
         font-weight: bold;
         transition: all 0.5s;   
     }
-    .menu-item:hover .prix
-    {
-        margin-left: 94rem;
-    }
-    .menu-item:hover .menu-prix
-    {
-        margin-right: -3rem;
-    }
-    .menu-item:hover .menu-span
-    {
-        margin-right: -3rem;
-    }
     footer h2
     {
         margin-left: 50%;
