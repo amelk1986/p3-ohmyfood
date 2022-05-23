@@ -191,7 +191,7 @@ body
 {
     display: flex;
     justify-content: space-between;
-    margin-top: 0.5rem;
+    margin-top: 0.2rem;
 }
 .checkbox
 {
@@ -210,6 +210,10 @@ body
     color: #fff;
     padding: 1.5rem 1.25rem;
     display: inline-block;
+}
+.menu-checkbox
+{
+    display: none;
 }
 .menu-item:hover .checkbox
 {
